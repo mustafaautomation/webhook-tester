@@ -1,0 +1,37 @@
+{
+  "name": "webhook-tester",
+  "version": "1.0.0",
+  "description": "Webhook capture, inspection, and replay tool for testing integrations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": { "webhook-tester": "dist/server/app.js" },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server/app.js",
+    "dev": "ts-node src/server/app.ts",
+    "test": "vitest run",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.ts\"",
+    "format:check": "prettier --check \"**/*.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "Quvantic <info@quvantic.com> (https://quvantic.com)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/mustafaautomation/webhook-tester.git" },
+  "homepage": "https://github.com/mustafaautomation/webhook-tester#readme",
+  "dependencies": { "express": "^4.21.0" },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "engines": { "node": ">=20.0.0" },
+  "files": ["dist"]
+}
