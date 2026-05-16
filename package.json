@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": { "type": "git", "url": "https://github.com/mustafaautomation/webhook-tester.git" },
   "homepage": "https://github.com/mustafaautomation/webhook-tester#readme",
-  "dependencies": { "express": "^4.21.0" },
+  "dependencies": { "express": "^4.22.2" },
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.0",
