@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/mustafaautomation/webhook-tester/actions/workflows/ci.yml/badge.svg)](https://github.com/mustafaautomation/webhook-tester/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-6.0-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
 Capture, inspect, and replay webhooks. Point any webhook provider (Stripe, GitHub, Slack) at this server and see exactly what was sent — headers, body, timing, everything.
 
